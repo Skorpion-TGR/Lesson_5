@@ -1,0 +1,259 @@
+@import url(null.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Piazzolla:opsz,wght@8..30,500;8..30,700&family=Playfair+Display:wght@900&display=swap');
+
+
+/* font-family: 'Balsamiq Sans',
+cursive;
+font-family: 'Piazzolla',
+serif;
+font-family: 'Playfair Display',
+serif; */
+
+body{
+   background-color: #10101085;
+   font-family: 'Piazzolla',
+         serif;
+   font-size: 18px;
+   color: aqua;
+   line-height: 1.2;
+}
+
+img{
+   max-width: 100%;
+}
+
+.wrapper {
+   max-width: 800px;
+   padding: 25px 10px;
+   text-align: center;
+}
+
+.header {
+   margin-bottom: 25px;
+}
+
+.header__title {
+   margin-bottom: 15px;
+}
+
+.title {
+   font-family: 'Balsamiq Sans';
+   font-style: italic;
+   font-size: 42px;
+   color: blue;
+   text-shadow: 2px 2px 4px black,
+         0 0 10px yellow,
+         0 0 2px yellow;
+}
+
+.date{
+   margin-bottom: 15px;
+   color: aliceblue;
+   text-shadow:
+         0.2px 0.2px 0.2px black,
+         0.2px 0.2px 0.2px blue,
+         0.2px 0.4px 0.2px blue,
+         0.2px 0.6px 0.2px blue,
+         0.2px 0.8px 0.2px blue,
+         0.2px 1px 0.2px blue,
+         0.2px 1.2px 0.2px blue,
+         0.2px 1.4px 0.2px blue,
+         0.2px 1.6px 0.2px blue,
+         0.2px 1.8px 0.2px blue,
+         0.2px 2px 0.2px blue,
+         0.2px 2.2px 0.2px blue,
+         0.2px 2.4px 1px black,
+         1px 8px 6px rgba(255, 255, 255, 0.4),
+         1px 16px 10px rgba(255, 255, 255, 0.2),
+         1px 32px 35px rgba(255, 255, 255, 0.2),
+         1px 64px 60px rgba(255, 255, 255, 0.4);
+}
+
+.date span {
+   font-size: 18px;
+}
+
+.date__image {
+   width: 24px;
+}
+
+.header__text {
+   padding: 0 10%;
+   color: chartreuse;
+   font-family: 'Playfair Display',
+         serif;
+   line-height: 1.5;
+   text-align: justify;
+   letter-spacing: 5px;
+}
+
+.text {
+   margin-bottom: 15px;
+   text-shadow:
+         0.2px 0.2px 0.2px black,
+         0.2px 0.2px 0.2px blue,
+         0.2px 0.4px 0.2px blue,
+         0.2px 0.6px 0.2px blue,
+         0.2px 0.8px 0.2px blue,
+         0.2px 1px 0.2px blue,
+         0.2px 1.2px 0.2px blue,
+         0.2px 1.4px 0.2px blue,
+         0.2px 1.6px 0.2px blue,
+         0.2px 1.8px 0.2px blue,
+         0.2px 2px 0.2px blue,
+         0.2px 2.2px 0.2px blue,
+         0.2px 2.4px 1px black,
+         1px 8px 6px rgba(255, 255, 255, 0.4),
+         1px 16px 10px rgba(255, 255, 255, 0.2),
+         1px 32px 35px rgba(255, 255, 255, 0.2),
+         1px 64px 60px rgba(255, 255, 255, 0.4);
+}
+
+.header__image {
+   margin-bottom: 15px;
+}
+
+.main {
+   margin-bottom: 25px;
+}
+
+.item__content {
+   margin-bottom: 40px;
+}
+
+.item__number {
+   margin-bottom: 10px;
+   text-align: left;
+   text-indent: 50px;
+}
+
+.item__number>p{
+   font-size: 35px;
+   color: yellow;
+   text-decoration: underline;
+   text-shadow: 2px 2px 4px black,
+         0 0 10px blue,
+         0 0 2px blue;
+}
+
+.item__title {
+   font-family: 'Playfair Display',
+         serif;
+   font-size: 28px;
+   font-weight: 700;
+   color: mediumblue;
+   text-decoration: overline;
+   text-shadow: 2px 2px 4px black,
+         0 0 10px yellow,
+         0 0 2px yellow;
+}
+
+.item__text {
+   padding: 0 25px;
+   text-shadow: 2px 2px 4px black,
+         0 0 10px blue,
+         0 0 2px blue;
+}
+
+.text__item1 {
+   text-align: left;
+}
+
+.text__item2 {
+   text-align: right;
+}
+
+.text__item4 {
+   text-align: justify;
+}
+
+.text__item5 {
+   text-align: left;
+}
+
+.text__item6 {
+   text-align: right;
+}
+
+.text__item8 {
+   text-align: justify;
+}
+
+.text__item9 {
+   text-align: left;
+}
+
+.text__item10 {
+   text-align: right;
+}
+
+.text__item12 {
+   text-align: justify;
+}
+
+.text__item13 {
+   text-align: left;
+}
+
+.text__item14 {
+   text-align: right;
+}
+
+.text__item16 {
+   text-align: justify;
+}
+
+.text__item17 {
+   text-align: left;
+}
+
+.text__item18 {
+   text-align: right;
+}
+
+.text__item19 {
+   text-align: justify;
+}
+
+.item-20 span{
+   font-size: 27px;
+}
+
+.content__text {
+   padding: 0 10%;
+   color: chartreuse;
+   font-family: 'Playfair Display',
+         serif;
+   line-height: 1.5;
+   text-align: justify;
+   letter-spacing: 5px;
+}
+
+.footer__title {
+   margin-bottom: 20px;
+   text-transform: uppercase;
+}
+
+ul{
+   margin-left: 50px;
+   margin-bottom: 20px;
+   text-align: left;
+   color: yellow;
+}
+
+li a{
+   color: blue;
+   line-height: 1.5;
+   text-shadow: 2px 2px 4px black,
+         0 0 10px yellow,
+         0 0 2px yellow;
+}
+
+.autor {
+   margin-right: -100px;
+   text-align: right;
+   text-shadow: 2px 2px 4px black,
+         0 0 10px blue,
+         0 0 2px blue;
+}
